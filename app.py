@@ -28,7 +28,7 @@ def classify_road_danger(victim_input, deaths_input, accident_time_input):
         return "Unknown", "gray"
 
 # Streamlit app layout
-st.title("Road Risk Classification")
+st.title("Predictive Traffic Accident Risk Analysis and Deployment with Streamlit")
 st.write("Enter the information to classify the road risk.")
 
 # Select victim category
